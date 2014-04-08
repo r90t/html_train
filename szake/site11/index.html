@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Sample</title>
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<script type="text/javascript" src="js/jquery-1.10.2.js"></script>
+	<script type="text/javascript" src="js/jquery.cycle2.js"></script>
+</head>
+<body>
+	<div class="main">
+		<div class="wrapper">
+			<header>
+				<a href="#"><div class="logo"></div></a>
+				<div class="global_navigation">
+					<div class="social_links">
+						<a href="#" class="social_link_item -twitter"></a>
+						<a href="#" class="social_link_item -facebook"></a>
+						<a href="#" class="social_link_item -wifi"></a>
+					</div>
+					<div class="global_nav_menu">
+						<ul>
+							<li><a href="#">About Us</a></li>
+							<li><a href="#">Contact Us</a></li>
+							<li><a href="#">Sitemap</a></li>
+						</ul>
+					</div>
+				</div>
+			</header>
+			<div class="navigation">
+				<ul class="navigation-list">
+					<li><a href="#">online booking</a></li>
+					<li><a href="#">menu</a></li>
+					<li><a href="#">christmas</a></li>
+					<li><a href="#">photo gallery</a></li>
+					<li><a href="#">reviews</a></li>
+					<li><a href="#">private parties</a></li>
+				</ul>
+			</div>
+			<div class="reservation">
+				<div class="reservation_items">
+					<img class="reservation_item" src="images/slide1.jpg">
+					<img class="reservation_item" src="images/slide2.jpg">
+					<img class="reservation_item" src="images/slide3.jpg">
+					<img class="reservation_item" src="images/slide2.jpg">
+				</div>
+				<div class="reservation_info">
+					<h1>Welcome!</h1>
+					<h2><span>French fries</span><br />
+					&amp; The best cocktails</h2>
+					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+					<a href="#"><div class="button"><div>Online reservation</div></div></a>
+				</div>
+			</div>
+			<div class="pager_wraper">
+				<div class="pager"></div>
+			</div>
+			<div class="slider">
+				<div id="slider_items">
+					<ul>
+						<a href="#">
+							<li class="slider_item">
+								<img src="images/item1.png">
+								<div class="sliderItem_read -know_more1">Read more</div>
+								<div class="sliderItem_ball -ball1"></div>
+							</li>
+						</a>
+						<a href="#">
+							<li class="slider_item">
+								<img src="images/item2.png">
+								<div class="sliderItem_read -know_more2">Read more</div>
+								<div class="sliderItem_ball -ball1"></div>
+							</li>
+						</a>
+						<a href="#">
+							<li class="slider_item">
+								<img src="images/item3.png">
+								<div class="sliderItem_read -know_more3">Read more</div>
+								<div class="sliderItem_ball -ball2"></div>
+							</li>
+						</a>
+					</ul>
+					<ul>
+						<a href="#">
+							<li class="slider_item">
+								<img src="images/item1.png">
+								<div class="sliderItem_read -know_more1">Read more</div>
+								<div class="sliderItem_ball -ball1"></div>
+							</li>
+						</a>
+						<a href="#">
+							<li class="slider_item">
+								<img src="images/item2.png">
+								<div class="sliderItem_read -know_more2">Read more</div>
+								<div class="sliderItem_ball -ball1"></div>
+							</li>
+						</a>
+						<a href="#">
+							<li class="slider_item">
+								<img src="images/item3.png">
+								<div class="sliderItem_read -know_more3">Read more</div>
+								<div class="sliderItem_ball -ball2"></div>
+							</li>
+						</a>
+					</ul>
+					<ul>
+						<a href="#">
+							<li class="slider_item">
+								<img src="images/item1.png">
+								<div class="sliderItem_read -know_more1">Read more</div>
+								<div class="sliderItem_ball -ball1"></div>
+							</li>
+						</a>
+						<a href="#">
+							<li class="slider_item">
+								<img src="images/item2.png">
+								<div class="sliderItem_read -know_more2">Read more</div>
+								<div class="sliderItem_ball -ball1"></div>
+							</li>
+						</a>
+						<a href="#">
+							<li class="slider_item">
+								<img src="images/item3.png">
+								<div class="sliderItem_read -know_more3">Read more</div>
+								<div class="sliderItem_ball -ball2"></div>
+							</li>
+						</a>
+					</ul>
+				</div>
+					<div class="nav_cursor -prev"></div>
+					<div class="nav_cursor -next"></div>
+				<div class="pointer_top"></div>
+				<div class="pointer_bottom"></div>
+			</div>
+			<footer>
+				<div class="footer_nav">
+					<ul>
+						<li><a href="#"></a>Private Policy</a></li>
+						<li><a href="#"></a>Terms and Condition</a></li>
+					</ul>
+				</div>
+				<div class="footer_info">
+					Copyright &copy; 20012  PSDFreebies.com All Rights Reserved 
+				</div>
+			</footer>
+		</div>
+	</div>
+<script>
+	//1-st slider
+	$('.reservation_items').cycle({
+	    speed: 1000,
+	    manualSpeed: 1000,
+	    pager: '.pager',
+	    loader: "wait",
+	    timeout: 7000,
+	});
+</script>
+<script>
+	//2-nd slider
+	$('#slider_items').cycle({
+	prev: '.-prev',
+	next: '.-next',
+	speed: 1000,
+	manualSpeed: 1000,
+	timeout: 5000,
+	slides: '> ul',
+	fx: 'scrollHorz'
+	});
+</script>
+</body>
+</html>
