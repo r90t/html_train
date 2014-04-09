@@ -1,0 +1,10 @@
+body	{
+		font-family: Arial, Verdana,  sans-serif; /* Семейство шрифтов */
+		font-size: 11pt; /* Размер основного шрифта в пунктах  */
+		}
+h1		{
+		color: green; /* Цвет заголовка */
+		font-size: 24pt; /* Размер шрифта в пунктах */
+		font-family: Georgia, Times, serif; /* Семейство шрифтов */
+		font-weight: normal; /* Нормальное начертание текста  */
+		}
