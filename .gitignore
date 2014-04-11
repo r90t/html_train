@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #################
 ## Eclipse
 #################
@@ -213,3 +214,6 @@ pip-log.txt
 
 #Mr Developer
 .mr.developer.cfg
+=======
+*.psd
+>>>>>>> 4f9be488458a6a9d3b8e13be8ce84e82a37dadbc
