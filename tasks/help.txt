@@ -4,7 +4,7 @@ doctype, html, body, div, h1 (или другие), img, a, span.
 
 CSS:
 
-background, border, width, height, float, font-size, font-weight, font-style, font-family, line-height, text-align, color, text-decoration, clear. 
+background, border, width, height, float, font-size, font-weight, font-style, font-family, line-height, text-align, color, text-decoration, clear, margin, padding. 
 
 EXAMPLES:
 
@@ -13,3 +13,11 @@ Background, Color: #fff or #ffffff or rgb(255,255,255) or rgba (255,255,255,0.8)
 Border: 5px solid/dashed/dotted #000
 
 Font: italic bold 12px/30px Georgia, serif
+
+Margin, Padding: 10px(top) 10px(right) 24px(bottom) 12px(left);
+
+margin: 10px auto; - добавляет внешние отступы по 10px сверху и снизу и выравнивает блок посередине доступного ему пространства.
+
+padding: 10px; - добавляет внутренние отступы 10px со всех строн одновременно.
+
+padding: 10px 12px 24px; - отступы 10 сверху, 12 слева и справа, 24 снизу.
