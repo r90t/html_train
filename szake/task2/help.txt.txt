@@ -1,0 +1,21 @@
+﻿HTML: html, head, body, div, header, footer, nav, p, ul, li, img, a.
+
+CSS: margin, padding, float, clear, background, border, border-radius, background-image, background-size, background-position, background-color, list-style, font, font-size, font-family, font-weight, font-style, color, line-height, text-align.
+
+
+Псевдоэлементы: :after, :before.
+Для них обязательно наличие свойства "content"
+
+div.class:before {content: "text"; display: block; background: red; width: 10px; height: 20px; position: absolute; top: 2px; left: 4px;}
+
+
+Псевдоклассы: :active, :hover, :visited, :link.
+Применяются к тегам/элементам страницы, которые выполняют какие-либо действия, например, ссылки, элементы формы, кнопки меню (:hover).
+
+a.class {color: #00f; text-decoration: none;}
+a.class:hover {color: #0f0; text-decoration: underline;} 
+a.class:active {color: #f00; text-decoration: none;}
+a.class:visited {color: #000; text-decoration: none;}
+
+Не забывайте при использовании "float" также использовать свойство "clear".
+22mpidlisna33
