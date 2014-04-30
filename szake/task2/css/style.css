@@ -1,0 +1,274 @@
+body {
+	margin: 0;
+	background: #555;
+	color: #333;
+	font-family: Arial, "Helvetica CY", "Nimbus Sans L", sans-serif;
+}
+.wrapper {
+	width: 800px;
+	margin: 0 auto;
+}
+.clear {
+	clear: both;
+	height: 0;
+	padding: 0 !important;
+	margin: 0 !important;
+}
+header {
+	background: #fff; 
+}
+header nav {
+	text-align: right;
+}
+header nav ul {
+	margin: 0; 
+	padding: 0; 
+	list-style: none;
+}
+header nav ul li {
+	display: inline-block;
+}
+header nav ul li a {
+	text-decoration: none;
+	font-size: 18px;
+	color: #333;
+	text-transform: uppercase;
+	font-weight: bold;
+	display: block;
+	padding: 30px;
+}
+header nav ul li a:hover {
+	text-decoration: underline;
+}
+.content {
+	
+}
+.content-top {
+	background: #fef8de;
+	padding: 10px 0 80px;
+}
+.content-top h1 {
+	color: #fff;
+	text-transform: uppercase;
+	margin: -20px 0 30px;
+	font-size: 48px;
+}
+.content-top p {
+	border-bottom: 4px solid #fff;
+	padding: 15px 0;
+	margin: 0;
+	text-align: justify;
+	font-size: 18px;
+}
+.content-top p:last-child {
+	border-bottom: none;
+}
+.content-middle {
+	background: #f2f1ec;
+	font-size: 12px;
+}
+.content-middle .wrapper {
+	background: url("../img/divider.png") center center repeat-y;
+	padding: 80px 0 30px;
+}
+.content-middle .wrapper > div {
+	margin-bottom: 50px;
+	position: relative;
+	padding: 35px;
+	font-size: 16px;
+}
+.orange {
+	background: #ffbe62;
+	color: #333;
+}
+.pink {
+	background: #ff8361;
+	color: #fff;
+}
+.-right {
+	clear:right;
+	float: right;
+}
+.-left {
+	clear: left;
+	float: left;
+}
+.small {
+	height: 80px;
+	width: 230px;
+}
+.middle {
+	height: 130px;
+	width: 230px;
+}
+.large {
+	height: 230px;
+	width: 230px;
+}
+
+.pink.-left:before {
+	content: " ";
+	display: block;
+	position: absolute;
+	top: 15px;
+	right: -35px;
+	width: 0;
+	height: 0;
+	border-top: 25px solid transparent;
+	border-left: 35px solid #ff8361;
+	border-bottom: 25px solid transparent;
+}
+.pink.-left:after {
+	content: " ";
+	display: block;
+	position: absolute;
+	top: 0;
+	right: -140px;
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	background: #ff8361;
+	border: 10px solid #dedede;
+}
+.orange.-left:before {
+	content: " ";
+	display: block;
+	position: absolute;
+	bottom: 15px;
+	right: -35px;
+	width: 0;
+	height: 0;
+	border-top: 25px solid transparent;
+	border-left: 35px solid #ffbe62;
+	border-bottom: 25px solid transparent;
+}
+.orange.-left:after {
+	content: " ";
+	display: block;
+	position: absolute;
+	bottom: 0;
+	right: -140px;
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	background: #ffbe62;
+	border: 10px solid #dedede;
+}
+.pink.-right:before {
+	content: " ";
+	display: block;
+	position: absolute;
+	top: 15px;
+	left: -35px;
+	width: 0;
+	height: 0;
+	border-top: 25px solid transparent;
+	border-right: 35px solid #ff8361;
+	border-bottom: 25px solid transparent;
+}
+.pink.-right:after {
+	content: " ";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: -140px;
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	background: #ff8361;
+	border: 10px solid #dedede;
+}
+.orange.-right:before {
+	content: " ";
+	display: block;
+	position: absolute;
+	bottom: 15px;
+	left: -35px;
+	width: 0;
+	height: 0;
+	border-top: 25px solid transparent;
+	border-right: 35px solid #ffbe62;
+	border-bottom: 25px solid transparent;
+}
+.orange.-right:after {
+	content: " ";
+	display: block;
+	position: absolute;
+	bottom: 0;
+	left: -140px;
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	background: #ffbe62;
+	border: 10px solid #dedede;
+}
+
+.content-bottom {
+	background: #fff6d7;
+	padding: 80px 0 60px;
+}
+.list1 {
+	float: left;
+	width: 33.33%;
+}
+.list1 ul {
+	list-style: none; 
+	margin: 0; 
+	padding: 0;
+}
+.list1 ul li {
+	background: url("../img/bullets.png") -7px -34px no-repeat;
+	padding: 3px 0 3px 30px;
+}
+.list2 {
+	float: left;
+	width: 33.33%;
+}
+.list2 ul {
+	list-style: none; 
+	margin: 0;
+	padding: 0;
+}
+.list2 ul li {
+	background: url("../img/bullets.png") 0 4px no-repeat;
+	padding: 8px 0 8px 30px;
+}
+.banners {
+	float: right;
+}
+.banners a {
+	margin: 10px 0 25px;
+	display: block;
+}
+.banners a:last-child {
+	margin: 0;
+}
+.banners a img {
+
+}
+footer {
+	background: #353535; 
+}
+footer nav {
+	text-align: right;
+}
+footer nav ul {
+	margin: 0; 
+	padding: 0; 
+	list-style: none;
+}
+footer nav ul li {
+	display: inline-block;
+}
+footer nav ul li a {
+	text-decoration: none;
+	font-size: 18px;
+	color: #fa9b25;
+	text-transform: uppercase;
+	font-weight: normal;
+	display: block;
+	padding: 30px;
+}
+footer nav ul li a:hover {
+	text-decoration: underline;
+}
