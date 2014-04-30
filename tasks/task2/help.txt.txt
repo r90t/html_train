@@ -1,4 +1,4 @@
-HTML: html, head, body, div, header, footer, nav, p, ul, li, img, a.
+﻿HTML: html, head, body, div, header, footer, nav, p, ul, li, img, a.
 
 CSS: margin, padding, float, clear, background, border, border-radius, background-image, background-size, background-position, background-color, list-style, font, font-size, font-family, font-weight, font-style, color, line-height, text-align.
 
